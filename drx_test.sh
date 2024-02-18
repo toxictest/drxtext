@@ -1,11 +1,11 @@
 #!/bin/bash
 # Check if both reference file and directory are provided as arguments
-if [ $# -ne 2 ]; then
-    output_figlet=$(figlet -c Script  Written by DrX)
+output_figlet=$(figlet -c Script  Written by DrX)
     echo "${output_figlet}"
     echo "#################################################################"
     echo "##### THIS IS THE SCRIPT OF TXT Line Finder AUTOMATION ##########"
     echo "#################################################################"
+if [ $# -ne 2 ]; then
     echo "Usage: $0 <reference_file> <directory>"
     exit 1
 fi
