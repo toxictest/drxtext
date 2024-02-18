@@ -2,7 +2,7 @@
 # Check if both reference file and directory are provided as arguments
 if [ $# -ne 2 ]; then
     output_figlet=$(figlet -c Script  Written by DrX)
-    echo "\033[0;032m ${output_figlet}"
+    echo "${output_figlet}"
     echo "#################################################################"
     echo "##### THIS IS THE SCRIPT OF TXT Line Finder AUTOMATION ##########"
     echo "#################################################################"
