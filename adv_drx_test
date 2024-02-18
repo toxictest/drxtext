@@ -47,3 +47,6 @@ while IFS= read -r line; do
         fi
     fi
 done < "$reference_file"
+
+f=$(figlet -c Weldone Dada ! Thanku)
+echo "\033[0;32m ${f}" 
