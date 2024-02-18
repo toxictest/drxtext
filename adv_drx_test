@@ -48,5 +48,6 @@ while IFS= read -r line; do
     fi
 done < "$reference_file"
 
-f=$(figlet -c Weldone Dada ! Thanku)
-echo "\033[0;32m ${f}" 
+f=$(figlet -c Thanku)
+echo "${f}"
+echo " ######## Connect me on Internet Just search "Sonu Shakya"######"
