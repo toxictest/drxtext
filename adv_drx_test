@@ -8,7 +8,7 @@ output_figlet=$(figlet -c Script  Written by DrX)
     echo "#################################################################"
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <reference_file> <directory>"
-    echo "Just use: . /directory/path/exist/all/txt/file/
+    echo "Just use: . /directory/path/exist/all/txt/file/"
     exit 1
 fi
 reference_file=$1
