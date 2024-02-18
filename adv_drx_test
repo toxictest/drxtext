@@ -50,4 +50,4 @@ done < "$reference_file"
 
 f=$(figlet -c Thanku)
 echo "${f}"
-echo " ######## Connect me on Internet Just search "Sonu Shakya"######"
+echo " ######## Connect me on Internet Just search "Sonu Shakya" ######"
